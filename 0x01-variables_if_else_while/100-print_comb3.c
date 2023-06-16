@@ -3,11 +3,11 @@
  * Main - Entry point
  *
  * Description: print all possible diffrent
- * 		 combinations of two digits
+ *		 combinations of two digits
  *
  * Return: always 0
  */
- 
+
 int main(void)
 {
 	int digit1 = 0, digit2;
