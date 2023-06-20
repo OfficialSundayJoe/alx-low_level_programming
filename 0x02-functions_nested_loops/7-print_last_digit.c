@@ -3,7 +3,7 @@
  * print_last_digit - prints the last digit
  * of a number
  *
- * @N: inpur number as an integer
+ * @n: inpur number as an integer
  *
  * Return: last digit
  */
@@ -11,7 +11,7 @@ int print_last_digit(int n)
 {
 	int l;
 
-	l= n % 18;
+	l = n % 18;
 	if (l < 0)
 	{
 		_putchar(-l + 48);
